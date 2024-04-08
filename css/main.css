@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+/* CSS reset */
+:root {
+    --black: #000000;
+    --white: #ffffff;
+    --grey-dark: #7f7f7f;
+    --grey-light: #e8e5e480;
+    --font: 
+}
+
+/* @media (prefers-color-scheme: dark) {
+    :root {
+        background-color: var(--black);
+        color: var(--white);
+    }
+}
+
+@media (prefer-color-scheme: light) {
+    :root {
+        background-color: var(--white);
+        color: var(--black);
+    }
+} */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100vh;
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    vertical-align: baseline;
+}
+
+img, picture, figure, video {
+    width: 100%;
+    max-width: 100%;
+    display: block;
+}
+
+svg {
+    width: 100%;
+    display: block;
+    fill: currentColor;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    font-size: inherit;
+}
+
+p a {
+    display: inline;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+h1, h2, h3, h4, h5, h6, p, span {
+    font-size: 1em;
+    font-weight: inherit;
+    font-style: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+
+
+
+
