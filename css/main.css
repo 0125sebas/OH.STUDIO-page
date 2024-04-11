@@ -6,7 +6,6 @@
     --white: #ffffff;
     --grey-dark: #7f7f7f;
     --grey-light: #e8e5e480;
-    --font: 
 }
 
 /* @media (prefers-color-scheme: dark) {
@@ -96,6 +95,7 @@ h1, h2, h3, h4, h5, h6, p, span {
     gap: 0.5em;
     border-radius: 30px;
     background-color: var(--grey-light);
+    /* background-color: #F3F2F1; */
 }
 
 .nav__link {
@@ -145,6 +145,10 @@ h1, h2, h3, h4, h5, h6, p, span {
 .stack__div {
     /* border: 1px solid blue; */
     width: 100%;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
 }
 
 .stack__picture {
@@ -155,6 +159,12 @@ h1, h2, h3, h4, h5, h6, p, span {
     /* border: 1px solid blue; */
     border-radius: 10px;
 }
+
+.stack__text {
+    font-size: 1em;
+    font-weight: 600;
+}
+
 
 
 
